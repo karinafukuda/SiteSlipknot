@@ -51,16 +51,19 @@ h1 {
 
 .link {
   text-decoration: none;
-  color: rgb(145, 24, 24);
+  color: rgb(100, 100, 100) !important;
   font-weight: 700;
 }
 
-.link,
-.sale:hover {
+.link:hover {
+  color: rgb(200, 18, 10) !important;
+}
+
+.effBtn:hover {
   color: rgb(214, 21, 21);
 }
 
-@media (max-width: 770px) {
+@media (max-width: 730px) {
   .top {
     padding-left: 0.25rem !important;
     padding-right: 0.25rem !important;
@@ -72,7 +75,7 @@ h1 {
     float: inherit;
   }
 
-  iframe {
+  /* iframe {
     display: none;
-  }
+  } */
 }
