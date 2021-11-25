@@ -1,0 +1,78 @@
+* {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  background-color: #1f1e1d;
+  background-image: linear-gradient(
+    to right,
+    rgba(235, 17, 17, 0.3) 1px,
+    transparent 1px
+  );
+  background-size: 10px 10px;
+  color: rgb(246, 246, 246);
+}
+
+h1 {
+  color: rgba(233, 232, 232, 0.9);
+}
+.scroll-body {
+  position: relative;
+  overflow: auto;
+  height: auto;
+}
+
+.navbar-brand {
+  box-shadow: rgb(247, 246, 246);
+}
+
+#photo {
+  width: 100vw;
+  filter: brightness(40%);
+}
+.card {
+  color: #1f1e1d;
+  text-align: center;
+  font-weight: 600;
+  filter: brightness(92%);
+  border-color: #1f1e1d;
+}
+
+.title-table {
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(145, 24, 24);
+  font-weight: 700;
+}
+
+.link:hover {
+  color: rgb(214, 21, 21);
+}
+
+@media (max-width: 770px) {
+  .top {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+    align-items: center !important;
+    font-size: 1em;
+  }
+
+  form {
+    float: inherit;
+  }
+
+  iframe,
+  #carouselSlidesOnly {
+    display: none;
+  }
+}
