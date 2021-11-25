@@ -4,7 +4,7 @@ Desafio de 1 dia para fazer um site com HTML, CSS, JS e Bootstrap do curso de de
 
 ##
 
-#### Tecnologias 
+#### Tecnologias
 
 - HTML
 - CSS3
@@ -13,4 +13,4 @@ Desafio de 1 dia para fazer um site com HTML, CSS, JS e Bootstrap do curso de de
 
 ##
 
-Link do deploy: <a>https://karinafukuda.github.io/siteSlipknot/</a>
+Link do deploy: <a>https://karinafukuda.github.io/SiteSlipknot/</a>
